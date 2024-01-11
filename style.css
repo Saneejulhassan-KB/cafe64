@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgba(247,229,210,255);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    justify-content: space-between; 
+    position: sticky;
+    top: 0;
+  
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li { 
+    margin:50px ;
+    color: rgb(112, 96, 96);
+    
+}
+
+
+
+.navHeading{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    margin: 20px;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+ nav ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.homeImg{
+    filter: brightness(60%);
+    object-fit: cover;
+    
+    
+}
+
+.workingTime{
+    background-color:rgb(104,108,92);
+    display: flex;
+    justify-content: center;
+    height: 64px;
+    margin-top: -4px;
+    
+}
+
+.workingTime p{
+    margin: 20px;
+    font-size:larger;
+    color: white;
+}
+
+
+
+.description{
+   background-color: rgb(167, 69, 69); 
+   color: rgb(255, 255, 255);
+   height: 590px;
+   width: 50%;
+   position: absolute;   
+}
+
+.content{
+    position: absolute;
+    top: 130px;
+    left: 300px;
+    text-align: justify;
+    
+}
+
+.content h1{
+    font-size: 70px;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+.content button{
+    padding: 15px;
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.content button:hover{
+    background-color: rgb(104,108,92);
+    transition-duration: 0.5s;
+    color: white;
+    
+}
+
+.image{
+    
+   
+    position: absolute;
+    left:50%;
+}
+
+.description2{
+    background-color:rgb(167, 69, 69); 
+    color: rgb(255, 255, 255);
+    height: 590px;
+    width: 50%;
+    position: absolute;
+    top: 1535px; 
+    left: 50%; 
+ }
+
+.image2{
+    position: absolute;
+    right:50%;
+    top: 1535px;
+}
+
+.description3{
+    background-color:rgb(167, 69, 69); 
+    color: rgb(255, 255, 255);
+    height: 590px;
+    width: 50%;
+    position: absolute;
+    top: 2125px; 
+    right: 50%; 
+ }
+
+
+ .image3{
+    position: absolute;
+    right:50%;
+    top: 2125px;
+    left: 50%;
+
+}
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
